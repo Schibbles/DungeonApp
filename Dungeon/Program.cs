@@ -385,6 +385,41 @@ namespace Dungeon
                 equippedWeapon.AccuracyBonus = 25;
             }
 
+            if (playerRace.Name == "Ronso" && equippedWeapon.Name == "Spear")
+            {
+                equippedWeapon.MinDamage += 3;
+                equippedWeapon.MaxDamage += 3;
+                equippedWeapon.AccuracyBonus += 10;
+            }
+
+            if (playerRace.Name == "Dwarf" && equippedWeapon.Name == "Hammer")
+            {
+                equippedWeapon.MinDamage += 3;
+                equippedWeapon.MaxDamage += 3;
+                equippedWeapon.AccuracyBonus += 10;
+            }
+
+            if (playerRace.Name == "Troll" && equippedWeapon.Name == "Axe")
+            {
+                equippedWeapon.MinDamage += 4;
+                equippedWeapon.MaxDamage += 7;
+                equippedWeapon.AccuracyBonus += 10;
+            }
+
+            if (playerRace.Name == "Angel" && equippedWeapon.Name == "Sword")
+            {
+                equippedWeapon.MinDamage += 3;
+                equippedWeapon.MaxDamage += 3;
+                equippedWeapon.AccuracyBonus += 10;
+            }
+
+            if (playerRace.Name == "Demon" && equippedWeapon.Name == "Sickle")
+            {
+                equippedWeapon.MinDamage += 3;
+                equippedWeapon.MaxDamage += 3;
+                equippedWeapon.AccuracyBonus += 10;
+            }
+
             //Create the outer loop - for the room and monster
             do
             {
